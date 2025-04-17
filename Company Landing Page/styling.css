@@ -1,0 +1,115 @@
+/*style body by adding cover background image*/
+
+body{
+    font-family: serif;
+    background: url("https://media.istockphoto.com/id/923370822/photo/espresso-machine.jpg?s=612x612&w=0&k=20&c=2UomaIgsloq131KlAa3M4mYWLa3RyCeEN3AkCOGpPjM=")center center no-repeat fixed;
+    background-size: cover;
+}
+
+/*adjust font-family too.*/
+
+/*style brand start*/
+.logo{
+    height: 30px;
+}
+/*style brand end*/
+
+/*style nav start*/
+.navbar-inverse{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 19px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+.navbar-toggler{
+    border: none;
+}
+/*style nav end*/
+
+/*jumbotron start*/
+.jumbotron{
+    background-color: transparent !important;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+}
+/*jumbotron end*/
+
+/* START icon section styled using bootstrap grid system*/
+.container{
+    max-width: 1000px;
+}
+.bodyimage{
+    height: 100px;
+}
+
+.col-md-4{
+    text-align: center;
+    color: #fff;
+}
+
+.icons p{
+    font-size: 15px;
+}
+/*END icon section styled using bootstrap grid system*/
+
+/*contact btn start*/
+.contact{
+    text-align: center; /*access the parent div when styling*/
+    margin-top: 30px;
+    margin-bottom: 100px; /*creates additional space below button*/
+}
+
+.btn{
+    background-color: rgba(110, 86, 48, 0.8)!important;
+    border: none;
+    border-radius: 10px;
+    color: #fff!important;
+    font-size: 18px;
+    padding: 10px 70px; /* top/bottom, left/right. */
+    letter-spacing: 1.3px;
+}
+
+.btn:hover{
+    background-color: rgba(0,0,0,0.5)!important;
+    color: #fff;
+    border: none;
+}
+/*contact btn end*/
+
+/*footer start*/
+.footer {
+    background-color: rgba(0,0,0,0.5);
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/*footer end*/
+
+/*START icon section width limit*/
+/*END icon section width limit*/
+
+/*START media query responsiveness*/
+@media (max-width: 768px) {
+    .bodyimage{
+        height: 70px;
+    }
+}
+/*END media query responsiveness*/
+
