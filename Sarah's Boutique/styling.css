@@ -1,0 +1,86 @@
+/*Body: 
+give body element a relative position for scrollspy to work. 
+add a font family to whole page*/
+
+/*Video:
+set video as background and make it fixed
+make sure it appears behind all elements
+make sure it spreads across the whole webpage*/
+video#bgvideo{
+    position: fixed;
+    min-height: 100px;
+    min-width: 100%;
+    z-index: -100;
+}
+
+/*video doesn't work on small devices.
+hide teh video and set the picture as background using
+media queries.
+make it also spread across whole webpage*/
+
+
+/*style home section and elements inside it:
+reduce margin-bottom of h1 and h2
+style button and its hover state*/
+#home{
+    background-color: transparent;
+    text-align: center;
+    padding-top: 15%;
+}
+
+#home h1{
+    margin-bottom: 30px;
+}
+
+#home h2{
+    margin-bottom: 50px;
+}
+
+#home .btn-info{
+    background-color: rgb(29,167,179);
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+#home .btn-info:hover{
+    background-color: rgba(29, 167, 179, 0.5);
+    
+}
+/*style about section
+add padding-top so nav link is active before carousel hits top border of the page
+limit its width in big devices to 1000px
+make headings bold and set the dimensions of the pictures*/
+.container{
+    max-width: 1000px;
+}
+#about{
+    text-align: center;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+#about h2{
+    font-weight: bold;
+}
+
+#about p{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.aboutImage{
+    height: 120px;
+}
+
+/*style promise section
+add padding-top for early activation of the nav-link
+set the carousel width and center it
+set height of pictures and set them inside carousel items
+move carousel caption under the pictures*/
+
+/*style the pictures and nav-brand for different screens*/
+
+/*style navigation bar using navbar generator*/
