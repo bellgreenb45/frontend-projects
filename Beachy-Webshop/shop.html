@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap 3.2.1-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!--JQuery-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--fontAwesome-->
+    <script src="./js/fontawesome.min.js"></script>
+
+    <!--javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./js/scripts.js"></script>
+    
+</head>
+<body>
+    <!--Navigation-->   
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container-fluid">
+
+            <a class="nav-item nav-link" href="#"><i class="fas fa-rabbit" style="color: #B197FC"></i><span class="navbar-text">Sarah Greenberg</span></a>
+
+            <a href="#" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
+
+            <!--for mobile devices-->
+            <div class="navbar-collapse collapse" id="navbar-menu"> 
+                <div class="navbar-nav ms-auto">
+                    
+                    <a class="nav-item nav-link dropdown-toggle" data-bs-toggle="dropdown" id="dropdown-menu" href="#home">Home</a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown">
+                            <h5 class="dropdown-header">Our Locations</h5>
+                            <a href="#projectAnchor" class="dropdown-item">New Jersey</a>
+                            <a href="#projectAnchor" class="dropdown-item">Pennsylvania</a>
+                            <a href="#projectAnchor" class="dropdown-item small">Delaware</a>
+    
+                            <h5 class="dropdown-header">Our Projects</h5>
+                            <a href="#projectAnchor" class="dropdown-item small">New Jersey</a>
+                            <a href="#projectAnchor" class="dropdown-item">Pennsylvania</a>
+                            <a href="#projectAnchor" class="dropdown-item small">Delaware</a>
+                        </div>
+                    </div>
+                    <a class="nav-item nav-link" href="#about">About</a>
+                    <a class="nav-item nav-link" href="#Reviews">Reviews</a>
+                    <a class="nav-item nav-link" href="#Contact"><i class="fas fa-envelope-open"></i>Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--slider-->
+    <div class="carousel" id="mainSlide">
+        <div class="carousel-inner">
+            <img class="w-100 d-block" src="images/forestView.jpg" alt="forest view">
+        </div>
+    </div>
+
+    <!--Content-->
+     <!--Content-->
+     <div class="container-fluid p-5" href="#projectAnchor">
+        <h1 id="projectAnchor">Project</h1>
+        <div>project #1</div>
+
+        <br>
+
+        <h1 id="projectAnchor">Project</h1>
+        <div>project #2</div>
+
+        <br>
+
+        <h1 id="projectAnchor">Project</h1>
+        <div>project #3</div>
+    
+        <br>
+
+        <h1 id="contactAnchor">Contact Info</h1>
+        <div>Contact info text</div>
+
+    </div>
+
+
+     <!--Cards-->
+     <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <img src="images/skylight.jpg" class="card-img-top" alt="iced mocha lattes">
+                    <h5 class="card-title">Item 1</h5>
+                    <p class="card-text">Item 1 is very nice.</p>
+                    <a href="#" class="btn btn-dark">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <img src="images/surf.jpg" class="card-img-top" alt="iced mocha lattes">
+                    <h5 class="card-title">Item 2</h5>
+                    <p class="card-text">Item 2 is very nice.</p>
+                    <a href="#" class="btn btn-dark">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <img src="images/tulip.jpg" class="card-img-top" alt="iced mocha lattes">
+                    <h5 class="card-title">Item 3</h5>
+                    <p class="card-text">Item 3 is very nice.</p>
+                    <a href="#" class="btn btn-dark">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <img src="images/mocha.jpg" class="card-img-top" alt="iced mocha lattes">
+                    <h5 class="card-title">Item 3</h5>
+                    <p class="card-text">Item 3 is very nice.</p>
+                    <a href="#" class="btn btn-dark">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid bg-dark text-center p-5">
+        <div class="row">
+
+            <div class="col-sm-3">
+                <h6 class="text-secondary">Home</h6>
+                <hr>
+                <p>
+                    <a href="#">Home</a>
+                    <br><a href="#">Projects</a>
+                    <br><a href="#">Contact</a>
+                </p>
+            </div>
+
+            <div class="col-sm-3">
+                <h6 class="text-secondary">Projects</h6>
+                <hr>
+                <p>
+                    <a href="#">Java Ray-Tracer</a>
+                    <br><a href="#">Snake Game</a>
+                    <br><a href="#">Project in Progress</a>
+                </p>
+            </div>
+
+            <div class="col-sm-3">
+                <h6 class="text-secondary">Shop</h6>
+                <hr>
+                <p>
+                    <a href="shop.html">T-Shirts</a>
+                    <br><a href="shop.html">Hoodies</a>
+                    <br><a href="shop.html">Headbands</a>
+                </p>
+            </div>
+
+            <div class="col-sm-3">
+                <h6 class="text-secondary">Contact</h6>
+                <hr>
+                <p>
+                    <a href="shop.html">linkedin</a>
+                    <br><a href="shop.html">github</a>
+                    <br><a href="shop.html">facebook</a>
+                </p>
+            </div>
+
+        </div>
+
+      <p class="text-center"> Sarah Greenberg &copy; 2025</p>
+    </footer>
+</body>
+</html>
