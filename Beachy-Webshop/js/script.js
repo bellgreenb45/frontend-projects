@@ -1,15 +1,14 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const navbar = document.querySelector('.navbar');
-    console.log('Navbar:', navbar); // Debug: Check if navbar is selected
-
-    window.addEventListener('scroll', () => {
-        console.log('ScrollY:', window.scrollY); // Debug: Check scroll position
-        if (window.scrollY > 50) {
-            navbar.classList.add('solid', 'bg-dark');
-            console.log('Added classes'); // Debug: Confirm classes are added
+document.addEventListener("DOMContentLoaded", () => {
+    window.addEventListener("scroll", () => {
+        const scroll = window.scrollY;
+        console.log("Scroll position:", scroll); // Debug: Check scroll position
+        const navbar = document.querySelector(".navbar");
+        if (scroll > 300) {
+            navbar.style.background = "#333"; // Dark color
+            console.log("Background set to dark (#333)"); // Debug: Confirm background change
         } else {
-            navbar.classList.remove('solid', 'bg-dark');
-            console.log('Removed classes'); // Debug: Confirm classes are removed
+            navbar.style.background = "transparent"; // Light color (transparent)
+            console.log("Background set to light (transparent)"); // Debug: Confirm background change
         }
     });
 });
